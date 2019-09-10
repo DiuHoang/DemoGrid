@@ -11,7 +11,7 @@
 		background-color: green;
 	}
 	.item4{
-		grid-area: mainBar;
+		grid-area: main-bar;
 		background-color: aqua;
 	}
 	.item5{
@@ -22,7 +22,7 @@
 		display: grid;
 		grid-template-areas:
 			'header header header header'
-			'mainBar mainBar mainBar mainBar'
+			'main-bar main-bar main-bar main-bar'
 			'menu conTent conTent conTent '
 			'footer footer footer footer';
 		grid-template-columns: 200px auto;
